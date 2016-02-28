@@ -393,4 +393,6 @@ Operating Environment:
 sessionInfo()
 ```
 
-Source for this report can be found at [github](https://github.com/redger-au/ds_reprores_assign02)
+Source for this report can be found at [github](https://github.com/redger-au/ds_reprores_assign02)  
+  
+And the document is published on [Rpubs](http://rpubs.com/redger_au/weather_analysis_coursera) 
