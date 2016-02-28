@@ -225,7 +225,13 @@ After cleanup we wound up ignoring `r numCrop_exp_other` values, vs the `r numCr
 ------------------------------
 
 #Results  
-
+We first aggregate, then sort the data ti enable generation of the plots ranked by impact.  
+We also generate a subset of the top 10 in order to easily create the "zoom" graphs showing the highest impact categories.
+  
+Finally we create the summary calculations and generate the plot (2 graphs each plot).  
+  
+Additional totals generated are used in the descriptive text following the plots.  
+  
 ##Human Health Impact  
 
 ```{r fig.height=10,fig.cap="Figure 1: Human Impact By Weather Event Category",fig.align="center",cache=TRUE}

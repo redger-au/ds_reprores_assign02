@@ -276,6 +276,9 @@ chrData_base_address  &lt;- &quot;data/repdata_data_FStormData.csv&quot;  # Base
 </div>
 <div id="results" class="section level1">
 <h1>Results</h1>
+<p>We first aggregate, then sort the data ti enable generation of the plots ranked by impact.<br />We also generate a subset of the top 10 in order to easily create the “zoom” graphs showing the highest impact categories.</p>
+<p>Finally we create the summary calculations and generate the plot (2 graphs each plot).</p>
+<p>Additional totals generated are used in the descriptive text following the plots.</p>
 <div id="human-health-impact" class="section level2">
 <h2>Human Health Impact</h2>
 <pre class="r"><code>      # Create a cross-tab using Aggregate
