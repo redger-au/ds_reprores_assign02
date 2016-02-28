@@ -37,7 +37,9 @@ chrDownload_address   <- "https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2
 chrData_base_address  <- "data/repdata_data_FStormData.csv"  # Base / measurement data ie. Observations
 ```
 ##Data Aqcuisition
-[Data](https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2) was acquired from a Coursera designated website (NOT direct from NOAA) along with a rudimentary [Data Dictionary](https://d396qusza40orc.cloudfront.net/repdata%2Fpeer2_doc%2Fpd01016005curr.pdf) and FAQ document.
+[Data](https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2) was acquired from a Coursera designated website (NOT direct from NOAA) along with a rudimentary [Data Dictionary](https://d396qusza40orc.cloudfront.net/repdata%2Fpeer2_doc%2Fpd01016005curr.pdf) and FAQ document.  
+  
+The data is downloaded unless it already exists in the "data"" directory and then read directly into R for processing (see next section).   
 ```{r,cache=TRUE}
     # Remember working directory
     chrWd_initial <- getwd()
